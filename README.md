@@ -1,4 +1,4 @@
-# Case PowerBI - Analise de Dados
+# Case PowerBI - Análise de Dados
 Case de uma empresa x para Analista de Dados/BI - Utilizando PowerBI<br/>
 
  [**Link para o Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiMzhmZWUxNGUtMGExMi00NzE0LTgwYWUtZjk2YTEyZjAyNGFjIiwidCI6ImU3ZWJhMzMwLWNlM2ItNGQzNy1hNDI4LTRjMWY4ZDEwYTNmZCJ9)
