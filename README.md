@@ -71,13 +71,15 @@ RETURN DIVIDE(PedidosDevolvidos, TotalPedidos, 0)`
 
 - Para entender a relação de margem de lucro com o a taxa de devolução, foi feita um grafico de área Ano-Mês, assim respondendo o objetivo 6
   ![image](https://github.com/user-attachments/assets/d3daac7e-a52a-4c11-95ba-1bf6fe609ec8)
--Agora para responder a 10 pergunta, foi feito 2 gráficos, o qual buscam aprofundar o custo da devolução com a taxa, abrindo para sub-categorias e finalmente produtos:
+  
+-Agora para responder a pergunta 10, foi feito dois gráficos, o qual buscam aprofundar o custo da devolução com a taxa, abrindo para sub-categorias e finalmente produtos:
 ![image](https://github.com/user-attachments/assets/4852dfc3-0ace-447e-86be-176750d2c1fd)
 *Com isso vemos que existem alguns produtos com potencias para saída de catálogo ou reformulação deste, por exemplo o Barricks (Mesa para Computador Retangular) o qual tem um custo elevado e possui 100% de taxa de devolução.**
 
-## Análise de Grande Impacto
-- Tive o interesse de entender possiveis váriaveis que influenciassem na devolução. Com isso, utilizei as datas de pedido e de envio a fim de ver se o tempo de entrega desde a compra poderia fazer com que o cliente desistisse.
-  fiz um cáculo de (data do envio) - (data do pedido), e criei um gráfico de dispersão. Com isso, obtive uma grande surpresa, percebi um Outlier na minha base como mostra a imagem:
+## Análise de Grande Impacto - Descoberta de Outlier
+- Tive o interesse de entender possiveis váriaveis que influenciassem na devolução. Com isso, utilizei as datas de pedido e de envio a fim de ver se o tempo de entrega desde a compra poderia fazer com que o cliente desistisse.<br/>
+  fiz um cáculo de (data do envio) - (data do pedido), e criei um gráfico de dispersão. Com isso, obtive uma grande surpresa, percebi um **Outlier** na minha base como mostra a imagem:
+  
   ![image](https://github.com/user-attachments/assets/9a53ce2b-eeab-4fb7-b482-0639dac24959)
   
      Existiam linhas com datas de envio inferiores a do pedido. Assim, fiz um novo tratamento na base, eliminando essas linhas e me trazendo apenas o resultado coeso.
